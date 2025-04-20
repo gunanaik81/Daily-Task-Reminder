@@ -1,7 +1,3 @@
-Sure! Here's a **professional and engaging project description** for your **"Daily Task Reminder System"**, perfect for reports, portfolios, presentations, or video descriptions:
-
----
-
 ### **Project Description**
 
 **Title:** *Daily Task Reminder System*  
