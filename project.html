@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Reminder</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🧠 Task Reminder</h2>
+
+    <!-- Category Selection -->
+    <label for="category">Select Category:</label>
+    <select id="category">
+      <option value="" disabled selected>-- Choose Category --</option>
+      <option class="daily-option" value="daily">🌞 Daily Activities</option>
+      <option class="office-option" value="office">💼 Office</option>
+      <option class="other-option" value="other">🌈 Others</option>
+    </select>
+
+    <!-- Task Input -->
+    <div id="task-input" style="display: none;">
+      <h3>➕ Add a Task</h3>
+      <input type="text" id="task-name" placeholder="Enter task name" />
+      <input type="datetime-local" id="task-time" />
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+
+    <!-- Task List -->
+    <div id="task-list" style="display: none;">
+      <h3>📌 Your Tasks</h3>
+    </div>
+
+    <!-- Buzzer Sound -->
+    <audio id="buzzer" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
